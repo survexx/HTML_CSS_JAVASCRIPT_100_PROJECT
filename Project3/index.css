@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: #DB143B;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.main .card{
+    margin: 20px;
+    width: 70%;
+    background-color: #ccc;
+    padding: 20px;
+    font-family: sans-serif;
+    line-height: 28px;
+}
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#21d4fd, #b721ff);
+    border-radius: 100px;
+}
